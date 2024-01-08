@@ -1,0 +1,39 @@
+h1 {
+    background-color: grey;
+}
+
+h2,
+.text {
+    font-family: sans-serif;
+}
+
+h2 {
+    color: purple;
+    text-align: center;
+}
+
+.text {
+    color: blue;
+    text-align: justify;
+}
+
+
+.link {
+    color: green;
+}
+
+.menu {
+    width: 20%;
+    margin: 0 43% 0 37%;
+}
+
+.menu>li {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+
+}
+
+.menu+.text {
+    color: red;
+    text-transform: uppercase;
+}
